@@ -1,0 +1,46 @@
+# Student session data (contains chat history, attack payloads)
+data/
+attacks/
+inboxes/
+
+# Frontend build artifacts and dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Environment files (if you ever add real ones)
+.env
+.env.local
+*.env
+
+# Editor and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Tailscale state if it ended up here
+.tailscale/
+
+# Caddy
+caddy_data/
+caddy_config/
+
+# Backups
+*.bak
+*.backup
+*~
